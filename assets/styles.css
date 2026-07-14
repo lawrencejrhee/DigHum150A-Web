@@ -211,44 +211,6 @@ hr {
 .card p { font-size: 0.95rem; color: var(--muted); margin-bottom: 0.5rem; }
 .card .card-link { font-family: var(--sans); font-size: 0.85rem; font-weight: 600; }
 
-/* ---- "Item record" table (archival flourish on the home page) ------------- */
-
-.record {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1.5rem 1.6rem;
-  margin: 1.5rem 0;
-}
-
-.record dl {
-  display: grid;
-  grid-template-columns: max-content 1fr;
-  gap: 0.35rem 1.5rem;
-  margin: 0;
-  font-size: 0.95rem;
-}
-
-.record dt {
-  font-family: var(--sans);
-  font-size: 0.72rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--muted);
-  align-self: baseline;
-  padding-top: 0.25em;
-}
-
-.record dd { margin: 0; }
-
-.record figcaption {
-  font-size: 0.85rem;
-  font-style: italic;
-  color: var(--muted);
-  margin-top: 1rem;
-}
-
 /* ---- Journal (blog) list --------------------------------------------------- */
 
 .post-list { list-style: none; padding: 0; margin: 1.5rem 0; }
@@ -344,22 +306,6 @@ figure.media figcaption {
 
 /* Smaller figure for portraits (about page) */
 figure.media.portrait { max-width: 15rem; }
-
-/* Monogram avatar (about page) */
-.avatar {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--accent);
-  color: var(--accent-ink);
-  font-family: var(--serif);
-  font-weight: 700;
-  font-size: 1.6rem;
-  margin-bottom: 1.5rem;
-}
 
 /* Decorative fleuron divider */
 .ornament {
